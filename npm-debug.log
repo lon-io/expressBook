@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/lon/.nvm/v0.10.32/bin/node',
+1 verbose cli   '/home/lon/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'express3-handlers' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json expressBook@1.0.0 No repository field.
+5 warn package.json expressBook@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'express3-handlers', null ]
+8 verbose cache add name=undefined spec="express3-handlers" args=["express3-handlers",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'express3-handlers',
+9 verbose parsed url   path: 'express3-handlers',
+9 verbose parsed url   href: 'express3-handlers' }
+10 silly lockFile 7c21765e-express3-handlers express3-handlers
+11 verbose lock express3-handlers /home/lon/.npm/7c21765e-express3-handlers.lock
+12 silly lockFile 7c21765e-express3-handlers express3-handlers
+13 silly lockFile 7c21765e-express3-handlers express3-handlers
+14 verbose addNamed [ 'express3-handlers', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 747cc61d-express3-handlers express3-handlers@
+17 verbose lock express3-handlers@ /home/lon/.npm/747cc61d-express3-handlers.lock
+18 silly addNameRange { name: 'express3-handlers', range: '*', hasData: false }
+19 verbose request where is /express3-handlers
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id dbd2209da7e62213
+22 verbose url raw /express3-handlers
+23 verbose url resolving [ 'https://registry.npmjs.org/', './express3-handlers' ]
+24 verbose url resolved https://registry.npmjs.org/express3-handlers
+25 verbose request where is https://registry.npmjs.org/express3-handlers
+26 info trying registry request attempt 1 at 19:20:27
+27 http GET https://registry.npmjs.org/express3-handlers
+28 http 404 https://registry.npmjs.org/express3-handlers
+29 silly registry.get cb [ 404,
+29 silly registry.get   { 'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '2',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Sun, 08 Nov 2015 18:20:30 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-lcy1133-LCY',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1447006830.179097,VS0,VE170' } ]
+30 silly lockFile 747cc61d-express3-handlers express3-handlers@
+31 silly lockFile 747cc61d-express3-handlers express3-handlers@
+32 error 404 Not Found
+32 error 404
+32 error 404 'express3-handlers' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'expressBook'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Linux 3.19.0-31-generic
+34 error command "/home/lon/.nvm/v0.10.32/bin/node" "/home/lon/.nvm/v0.10.32/bin/npm" "install" "--save" "express3-handlers"
+35 error cwd /home/lon/Documents/projects/expressBook
+36 error node -v v0.10.32
+37 error npm -v 1.4.28
+38 error code E404
+39 verbose exit [ 1, true ]

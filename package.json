@@ -1,0 +1,17 @@
+{
+  "name": "expressBook",
+  "version": "1.0.0",
+  "description": "Web Development with Node and Express.pdf",
+  "main": "meadowlark.js",
+  "dependencies": {
+    "express": "~3.5",
+    "express3-handlebars": "^0.5.2",
+    "mongodb": "~1.4.34"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lon",
+  "license": "MIT"
+}
